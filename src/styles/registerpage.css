@@ -1,0 +1,125 @@
+.rebod{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.RegisterPage {
+  background: #e9ebee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.RegisterPage .container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  height: 100%
+}
+
+
+.RegisterPage .register {
+  float: left;
+  background-color: #fafafa;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.RegisterPage .register h1 {
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.RegisterPage input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #eeeeef;
+}
+
+.RegisterPage input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+.RegisterPage .register span {
+  float: left
+}
+
+.RegisterPage .register a {
+  float: right;
+  text-decoration: none;
+  color: #000;
+}
+
+.RegisterPage .register a:hover {
+  color: #ed60bc;
+}
+
+.RegisterPage .register button {
+  width: 100%;
+  margin: 30px 0;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #666;
+  font-family: Arial;
+  color: #fffdff;
+  font-size: 16px;
+  background: #ed60bc;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-width: 0
+}
+
+.RegisterPage .register button:hover {
+  background: #fc96d5;
+  color: #fffdff !important;
+  transition: none
+}
+
+.RegisterPage .register p {
+  display: inline-block;
+  margin: 0px 10px 30px;
+}
+
+.RegisterPage .login {
+  float: right;
+  background-image: linear-gradient(135deg, #23212f 5%, #ed60bc 95%);
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.RegisterPage .login h2 {
+  margin: 40px 0;
+  font-size: 50px;
+  letter-spacing: 3px
+}
+
+.RegisterPage .login p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.RegisterPage .login a {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.2s all ease-in-out;
+  text-decoration: none;
+}
+
+.RegisterPage .login a:hover {
+  color: #ed60bc;
+  background-color: #fff;
+  cursor: pointer;
+}
